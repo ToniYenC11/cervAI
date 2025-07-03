@@ -76,7 +76,12 @@ Cervical cancer is the [fourth](https://www.who.int/news-room/fact-sheets/detail
 ### 🔍 RetinaNet
 
 #### 🎯 Training Curve for Each Epochs
-![RetinaNet Training Loss](https://via.placeholder.com/600x300.png?text=RetinaNet+Training+Loss)
+![image](https://github.com/user-attachments/assets/444deeb9-3b11-4bef-a0f9-b07ef35f208e)
+
+- Best Average Precision for Objects Above 50%: **Epoch 13** (64.2%)
+- Best Average Recall for Objects between 50% and 95%: **Epoch 3** (46.9%)
+  - However, this epoch also has a slightly above average precision for Objects Above 50% (57%)
+- Best Average Precision for Objects between 50% and 95%: **Epoch 13** (17.5%)
 
 #### 🧪 Validation Accuracy / mAP
 ![RetinaNet Validation mAP](https://via.placeholder.com/600x300.png?text=RetinaNet+Validation+mAP)
