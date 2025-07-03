@@ -51,23 +51,23 @@ Cervical cancer is the [fourth](https://www.who.int/news-room/fact-sheets/detail
 
 ---
 
-## 📌 DETR (DEtection TRansformer)
+### 📌 DETR (DEtection TRansformer)
 
 **DETR** reformulates object detection as a **direct set prediction problem** using transformers. It eliminates traditional components like anchor boxes, non-maximum suppression (NMS), and region proposal networks. DETR uses a CNN backbone (like ResNet) to extract features and a **transformer encoder-decoder** to model global relationships. It predicts a **fixed number of objects** via bipartite matching using **Hungarian loss**.
 
 > 🔍 Key Innovation: Integrates **transformer-based attention** directly into object detection.
 
-[Link to DETR Paper](INSERT_LINK_HERE)
+[Link to DETR Paper](https://arxiv.org/abs/2005.12872)
 
 ---
 
-## 📌 RT-DETR (Real-Time DETR)
+### 📌 RT-DETR (Real-Time DETR)
 
 **RT-DETR** is a real-time variant of DETR optimized for speed and deployment. It maintains the end-to-end set prediction formulation of DETR but uses a **lightweight backbone** and **efficient transformer design**. RT-DETR introduces techniques like **query selection**, **faster decoding**, and hardware-friendly architectures to achieve fast inference suitable for edge devices and real-time applications.
 
 > 🔍 Key Innovation: Balances **transformer-based accuracy** with **real-time performance constraints**.
 
-[Link to RT-DETR Paper](INSERT_LINK_HERE)
+[Link to RT-DETR Paper]([INSERT_LINK_HERE](https://docs.ultralytics.com/models/rtdetr/))
 
 ---
 
