@@ -84,12 +84,15 @@ Cervical cancer is the [fourth](https://www.who.int/news-room/fact-sheets/detail
 - Best Average Precision for Objects between 50% and 95%: **Epoch 13** (17.5%)
 
 #### Sample Predictions
-![image](https://github.com/user-attachments/assets/eb2d5800-285b-4fdd-a33b-7b79a0f241d2)
 - Correct labels and correct region created.
-![image](https://github.com/user-attachments/assets/1239d4e5-eb6c-4bfb-b8e5-e6fca4ad0a75)
+![image](https://github.com/user-attachments/assets/eb2d5800-285b-4fdd-a33b-7b79a0f241d2)
+
 - Incorrect labeling but correct region created
-![image](https://github.com/user-attachments/assets/85b7a0ed-87d0-4e89-a6a4-88e6de406f16)
+![image](https://github.com/user-attachments/assets/1239d4e5-eb6c-4bfb-b8e5-e6fca4ad0a75)
+
 - Correct region, but multiple detections found.
+![image](https://github.com/user-attachments/assets/85b7a0ed-87d0-4e89-a6a4-88e6de406f16)
+
 
 ---
 
