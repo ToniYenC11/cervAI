@@ -75,7 +75,7 @@ Cervical cancer is the [fourth](https://www.who.int/news-room/fact-sheets/detail
 
 ### 🔍 RetinaNet
 
-#### 🎯 Training Curve for Each Epochs
+#### 🧪 Testing Results for Each Epochs
 ![image](https://github.com/user-attachments/assets/444deeb9-3b11-4bef-a0f9-b07ef35f208e)
 
 - Best Average Precision for Objects Above 50%: **Epoch 13** (64.2%)
@@ -83,12 +83,13 @@ Cervical cancer is the [fourth](https://www.who.int/news-room/fact-sheets/detail
   - However, this epoch also has a slightly above average precision for Objects Above 50% (57%)
 - Best Average Precision for Objects between 50% and 95%: **Epoch 13** (17.5%)
 
-#### 🧪 Validation Accuracy / mAP
-![RetinaNet Validation mAP](https://via.placeholder.com/600x300.png?text=RetinaNet+Validation+mAP)
-
-- **Convergence:** Smooth loss decrease with occasional spikes.
-- **Validation mAP:** Steady increase, peaking before plateau.
-- **Observation:** RetinaNet benefits from focal loss in handling class imbalance.
+#### Sample Predictions
+![image](https://github.com/user-attachments/assets/eb2d5800-285b-4fdd-a33b-7b79a0f241d2)
+- Correct labels and correct region created.
+![image](https://github.com/user-attachments/assets/1239d4e5-eb6c-4bfb-b8e5-e6fca4ad0a75)
+- Incorrect labeling but correct region created
+![image](https://github.com/user-attachments/assets/85b7a0ed-87d0-4e89-a6a4-88e6de406f16)
+- Correct region, but multiple detections found.
 
 ---
 
