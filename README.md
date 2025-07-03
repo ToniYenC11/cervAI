@@ -20,7 +20,7 @@ This document serves as a comprehensive documentation on the deep learning model
 1. [About cerv.AI](#about-cervai)
 2. [Theory on Models Trained](#theory-on-models-trained)
 3. [Training and Validation Results](#training-and-validation-results)
-4. [Visualization of Models](#visualization-of-models)
+4. [Training the Models](#training-the-models)
 5. [Recommendations for Improvement](#recommendations-for-improvement)
 
 ---
@@ -93,10 +93,38 @@ Cervical cancer is the [fourth](https://www.who.int/news-room/fact-sheets/detail
 - Correct region, but multiple detections found.
 ![image](https://github.com/user-attachments/assets/85b7a0ed-87d0-4e89-a6a4-88e6de406f16)
 
+#### Implementation of GRAD-CAM
+![image](https://github.com/user-attachments/assets/cc1e982c-bf48-4dd7-8812-9a677a60b010)
+![image](https://github.com/user-attachments/assets/63be0247-df52-4b4f-b52f-60f17c8781a9)
+![image](https://github.com/user-attachments/assets/23f06ea5-4ad7-4e02-8f8d-512f3c3a9e30)
+
+- All visualizations show that the primary area the model is searching for is the appearance of a middle of the cervix.
+- However, it also mildly detects flares in the used camera (see image 3)
+- And to some extent, the supposed aceto-white area (image 2)
+
+### 🔍 DEtection TRansformer
+
+#### 🧪 Testing Results for Each Epochs
+![image](https://github.com/user-attachments/assets/444deeb9-3b11-4bef-a0f9-b07ef35f208e)
+
+- Best Average Precision for Objects Above 50%: **Epoch 13** (64.2%)
+- Best Average Recall for Objects between 50% and 95%: **Epoch 3** (46.9%)
+  - However, this epoch also has a slightly above average precision for Objects Above 50% (57%)
+- Best Average Precision for Objects between 50% and 95%: **Epoch 13** (17.5%)
+
+#### Sample Predictions
+- Correct labels and correct region created.
+![image](https://github.com/user-attachments/assets/eb2d5800-285b-4fdd-a33b-7b79a0f241d2)
+
+- Incorrect labeling but correct region created
+![image](https://github.com/user-attachments/assets/1239d4e5-eb6c-4bfb-b8e5-e6fca4ad0a75)
+
+- Correct region, but multiple detections found.
+![image](https://github.com/user-attachments/assets/85b7a0ed-87d0-4e89-a6a4-88e6de406f16)
 
 ---
 
-## Visualization of Models
+## Treaining the Models
 
 
 
