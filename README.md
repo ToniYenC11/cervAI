@@ -73,7 +73,17 @@ Cervical cancer is the [fourth](https://www.who.int/news-room/fact-sheets/detail
 
 ## Training and Validation Results
 
+### 🔍 RetinaNet
 
+#### 🎯 Training Curve for Each Epochs
+![RetinaNet Training Loss](https://via.placeholder.com/600x300.png?text=RetinaNet+Training+Loss)
+
+#### 🧪 Validation Accuracy / mAP
+![RetinaNet Validation mAP](https://via.placeholder.com/600x300.png?text=RetinaNet+Validation+mAP)
+
+- **Convergence:** Smooth loss decrease with occasional spikes.
+- **Validation mAP:** Steady increase, peaking before plateau.
+- **Observation:** RetinaNet benefits from focal loss in handling class imbalance.
 
 ---
 
