@@ -1,0 +1,11 @@
+torch
+torchvision
+pillow
+transformers
+mlflow
+numpy
+pandas
+pycocotools
+scikit-learn #Added here just in case scikit-image does not get imported
+scikit-image
+argparse
