@@ -124,8 +124,11 @@ Cervical cancer is the [fourth](https://www.who.int/news-room/fact-sheets/detail
 
 ---
 
-## Treaining the Models
+## Training the Models
 
+Inside each folder of the models is a `README.md` file that explains how the training is done for each model, how to load pretrained weights, and other scripts and notebooks that you can use to visualize model predictions. For this main folder, it is important that the **Datasets** are mainly sourced from [this link](universe.roboflow.com/madhura/merged-acetic-acid/dataset/3). It is the **IARC Cervical Image Data Bank** but with annotations for the center of the cervix.
+
+The second iteration of the project will include image segmentation for the surrounding areas of the center of the cervix, from which the model will predict the positive or negative diagnosis. However, this requires a separate annotation for the image segmentation. Hence, the models trained are for identifying the center of the cervix. The labels predicted are not necessarily critical in the current model.
 
 
 ---
