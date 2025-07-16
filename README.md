@@ -129,6 +129,7 @@ Cervical cancer is the [fourth](https://www.who.int/news-room/fact-sheets/detail
 Inside each folder of the models is a `README.md` file that explains how the training is done for each model, how to load pretrained weights, and other scripts and notebooks that you can use to visualize model predictions. For this main folder, it is important that the **Datasets** are mainly sourced from [this link](universe.roboflow.com/madhura/merged-acetic-acid/dataset/3). It is the **IARC Cervical Image Data Bank** but with annotations for the center of the cervix.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 The datasets **must be in COCO format** for uniformity of all training scripts.
 
 For all scripts, its named by default `datasets`. You can change the name appropriately, but in the case that some scripts and notebook do not work, simply change the `DATASET_PATH` in the notebook/scripts to the name of your dataset directory.
@@ -149,6 +150,11 @@ python train.py --coco_path ../coco --depth 50
 
 
 Check inside each model directory for explanations and instructions on how to use the training scripts, loading weights, performing inference, and visualizing said inferences.
+=======
+For all scripts, its named by default `datasets`. You can change the name appropriately, but in the case that some scripts and notebook do not work, simply change the `DATASET_PATH` in the notebook/scripts to the name of your dataset directory.
+
+Check inside each model directory for explanations and instructions on how to use the trainign scripts, loading weights, performing inference, and visualizing said inferences.
+>>>>>>> f4db82d5fae65a807313189e5f40c56ace1525b1
 =======
 For all scripts, its named by default `datasets`. You can change the name appropriately, but in the case that some scripts and notebook do not work, simply change the `DATASET_PATH` in the notebook/scripts to the name of your dataset directory.
 
