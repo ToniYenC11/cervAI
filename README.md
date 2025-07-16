@@ -148,11 +148,10 @@ cd RetinaNet_new/scripts/
 python train.py --coco_path ../coco --depth 50
 ```
 
-Check inside each model directory for explanations and instructions on how to use the training scripts, loading weights, performing inference, and visualizing said inferences.
-=======
 For all scripts, its named by default `datasets`. You can change the name appropriately, but in the case that some scripts and notebook do not work, simply change the `DATASET_PATH` in the notebook/scripts to the name of your dataset directory.
 
 Check inside each model directory for explanations and instructions on how to use the trainign scripts, loading weights, performing inference, and visualizing said inferences.
+
 ---
 
 ## Recommendations for Improvement
