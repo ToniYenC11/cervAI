@@ -157,3 +157,6 @@ Check inside each model directory for explanations and instructions on how to us
 ## Recommendations for Improvement
 
 - 
+
+---
+Written by: Toni "Sniper" Yenisei Czar S. Castañares
