@@ -13,17 +13,23 @@
 - The **Box Regression Subnet** predicts precise bounding box offset for each anchor box, running parallel with the classification subnet, also attached to each level of the FPN. It uses a standard L1 regularization loss.
 
 
-## Training
+## Pipeline Documentation
 
 The `RetinaNet_v1.ipynb` is a jupyter notebook serving as the documentation of the training and inference pipeline. Running the model itself is through executing the scripts, which will also be explained at the end of this markdown.
 
-### Data Preparation
-#### The Dataset Class
-The dataset class
+The notebook includes:
+1. Dataset sources
+2. Data Preparation
+3. Model Development
+4. Training Pipeline
+5. Evaluation Metrics
+6. Inference Pipeline
+7. Loading Pretrained Weights
+
+Use this notebook as a guide to integrate the pipeline in similar models, which is under the umbrella of **single-stage object detectors** which include YOLO, Faster R-CNN, and its variations.
 
 
 ## Validation
-
 
 
 ## Loading Pretrained Weights 

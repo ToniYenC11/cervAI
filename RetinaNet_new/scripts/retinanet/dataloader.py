@@ -121,9 +121,6 @@ class CocoDataset(Dataset):
 
     def num_classes(self):
         return 80
-
-
-class CSVDataset(Dataset):
     """CSV dataset."""
 
     def __init__(self, train_file, class_list, transform=None):
@@ -297,7 +294,6 @@ class CSVDataset(Dataset):
         image = Image.open(self.image_names[image_index])
         return float(image.width) / float(image.height)
 
-
 def collater(data):
 
     imgs = [s['img'] for s in data]
@@ -370,7 +366,6 @@ class Resizer(object):
 
         return {'img': torch.from_numpy(new_image), 'annot': torch.from_numpy(annots), 'scale': scale}
 
-
 class Augmenter(object):
     """Convert ndarrays in sample to Tensors."""
 
@@ -393,7 +388,6 @@ class Augmenter(object):
             sample = {'img': image, 'annot': annots}
 
         return sample
-
 
 class Normalizer(object):
 
@@ -428,7 +422,6 @@ class UnNormalizer(object):
         for t, m, s in zip(tensor, self.mean, self.std):
             t.mul_(s).add_(m)
         return tensor
-
 
 class AspectRatioBasedSampler(Sampler):
 
