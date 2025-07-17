@@ -13,10 +13,13 @@
 - The **Box Regression Subnet** predicts precise bounding box offset for each anchor box, running parallel with the classification subnet, also attached to each level of the FPN. It uses a standard L1 regularization loss.
 
 
-
 ## Training
 
+The `RetinaNet_v1.ipynb` is a jupyter notebook serving as the documentation of the training and inference pipeline. Running the model itself is through executing the scripts, which will also be explained at the end of this markdown.
+
 ### Data Preparation
+#### The Dataset Class
+The dataset class
 
 
 ## Validation
